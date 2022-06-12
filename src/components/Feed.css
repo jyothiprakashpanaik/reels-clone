@@ -1,0 +1,25 @@
+
+
+.upload_container{
+    width: 150px;
+    border: 2px solid rgb(233, 33, 66);
+    color: rgb(233, 33, 66);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 10px auto;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.upload_container:hover{
+    color: white;
+    background-color: rgb(233, 33, 66);
+}
+
+.upload_container>span{
+    margin-right: 10px;
+}
